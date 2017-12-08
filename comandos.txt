@@ -1,0 +1,59 @@
+Configurando username e email
+git config --global user.name "Meu nome"
+git config --global user.email "meuemail@teste.com"
+
+Configurando editor principal / OPCOES(vim, atom)
+git config --global core.editor vim
+
+Imprimir valor do username, email, editor principal
+git config user.name
+git config user.email
+git config core.editor
+
+Imprimir todas as config do git
+git config --list
+
+Criar diretorio no terminal
+mkdir
+
+Navegar entre os diretorios
+cd nome_da_pasta
+
+Voltar um diretorio acima
+cd ..
+
+Para iniciar um repositorio git local
+git init
+
+Para ver a estrutura de pastas
+ls -la
+
+Ver log de todos os commits do projeto
+git log
+
+Ver logs com informacoes de branch
+git log --decorate
+
+Ver logs filtrando pelo autor do commit
+git log --author="Nome"
+
+Ver log em ordem alfabetica mostrando a quantidade de commits, quem fez e o comentario da pessoa
+git shortlog
+
+Ver somente o nome da pessoa e quantos commits ela fez
+git shortlog -sn
+
+Ver grafico dos branchs do projeto
+git log --graph
+
+Ver alteracoes de um commit especifico utilizando a hash do log
+git show hash
+
+Comando para ver as alteracoes antes de commitar os arquivos
+git diff
+
+Comando para ver somente os arquivos que foram modificados
+git diff --name-only
+
+
+
