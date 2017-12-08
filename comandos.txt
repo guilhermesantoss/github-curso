@@ -55,5 +55,23 @@ git diff
 Comando para ver somente os arquivos que foram modificados
 git diff --name-only
 
-Comando para adicionar ao STAGED o arquivo e ja commitar
+Comando para adicionar todos os arquivos modified ao staged
+git add .
+
+Comando para adicionar um unico arquivo ao staged
+git add nome_do_arquivo
+
+Comando para adicionar ao staged o arquivo e ja commitar
 git commit -am "mensagem"
+
+Comando para commitar e digitar uma mensagem
+git commit -m "Sua mensagem"
+
+Comando para subir as suas alteracoes no repositorio remote
+git push origin nome_do_branch
+
+Comando para atualizar o repositorio local com os arquivos do remote
+git pull
+
+Comando para clonar um projeto
+git clone link_do_projeto
