@@ -55,5 +55,5 @@ git diff
 Comando para ver somente os arquivos que foram modificados
 git diff --name-only
 
-
-
+Comando para adicionar ao STAGED o arquivo e ja commitar
+git commit -am "mensagem"
