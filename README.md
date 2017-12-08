@@ -1,5 +1,5 @@
 # Git Course
 
-Este e um repositorio teste para ensinar como o Git funciona.
+Este é um repositório teste para ensinar como o Git e o GitHub funciona.
 
-Conheca o curso Gratis no site da [Udemy](https://www.udemy.com/git-e-github-para-iniciantes/)
+Conheça o curso grátis no site da [Udemy](https://www.udemy.com/git-e-github-para-iniciantes/)
