@@ -75,3 +75,6 @@ git pull
 
 Comando para clonar um projeto
 git clone link_do_projeto
+
+link de download dos psd do simonera
+http://validacoes.tlsbr.com/zip/teste/simone/PSDs_TEDStock.zip
