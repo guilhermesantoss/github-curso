@@ -16,6 +16,9 @@ git config --list
 Criar diretorio no terminal
 mkdir
 
+Comando para criar um arquivo
+echo conteudo_de_dentro_do_arquivo >> nome_do_arquivo.extensao
+
 Navegar entre os diretorios
 cd nome_da_pasta
 
@@ -61,7 +64,7 @@ git add .
 Comando para adicionar um unico arquivo ao staged
 git add nome_do_arquivo
 
-Comando para adicionar ao staged o arquivo e ja commitar
+Comando para adicionar ao staged e comitar um arquivo ja existente
 git commit -am "mensagem"
 
 Comando para commitar e digitar uma mensagem
@@ -75,3 +78,15 @@ git pull
 
 Comando para clonar um projeto
 git clone link_do_projeto
+
+Comando para voltar as alteracoes feitas em um arquivo, exemplo README.md
+git checkout README.md
+
+Comando para tirar o arquivo do Staged, ou seja pronto para comitar
+git reset HEAD nome_do_arquivo
+
+Comando para resetar commits, tem 3 tipos: --soft --mixed --hard
+git reset --soft hash_log
+::--soft - mata o commit e deixa o arquivo preparado para commitar, ou seja, staged
+::--mixed - mata o commit e deixa o arquivo unstaged
+::--hard - mata o commit e desfaz todas as alteracoes ja feitas
