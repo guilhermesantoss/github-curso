@@ -77,7 +77,7 @@ Comando para atualizar o repositorio local com os arquivos do remote
 git pull
 
 Comando para clonar um projeto
-git clone link_do_projeto
+git clone link_do_projeto nome_da_pasta_de_projeto
 
 Comando para voltar as alteracoes feitas em um arquivo, exemplo README.md
 git checkout README.md
@@ -87,6 +87,15 @@ git reset HEAD nome_do_arquivo
 
 Comando para resetar commits, tem 3 tipos: --soft --mixed --hard
 git reset --soft hash_log
-::--soft - mata o commit e deixa o arquivo preparado para commitar, ou seja, staged
-::--mixed - mata o commit e deixa o arquivo unstaged
-::--hard - mata o commit e desfaz todas as alteracoes ja feitas
+::--soft:: mata o commit e deixa o arquivo preparado para commitar, ou seja, staged
+::--mixed:: mata o commit e deixa o arquivo unstaged
+::--hard:: mata o commit e desfaz todas as alteracoes ja feitas
+
+Comando para criar um branch
+git checkout -b nome_do_branch
+
+Comando para listar todos os branchs existentes no projeto e ele indica em qual branch você está atualmente
+git branch
+
+Comando para deletar um branch
+git branch -D nome_do_branch
