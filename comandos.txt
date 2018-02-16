@@ -108,3 +108,12 @@ git config --global alias.s status -> abreviação para "git status" que agora �
 
 Comando para criar versionamento com tags, por exemplo pixi.js v4.6.2 e essa tag contém todas as informações da realease
 git tag -a v1.0.0 -m "sua_mensagem"
+
+Comando para reverter um código sem ter que utilizar git reset, e ele não some com o commit do kra que eu reverti
+git revert hash -> essa hash, é a do commit que vc deseja reverter
+
+Comando para apagar branch e tags remotos
+git tag -d nome_da_tag
+e para retirar do repositorio remoto
+git push origin :nome_da_tag
+a mesma coisa server para o branch
