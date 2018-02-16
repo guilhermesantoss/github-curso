@@ -34,6 +34,9 @@ ls -la
 Ver log de todos os commits do projeto
 git log
 
+Para cancelar o comando git log
+comando :q, utilizar o comando :z para dar a rolagem mais rapida dos logs
+
 Ver logs com informacoes de branch
 git log --decorate
 
@@ -99,3 +102,9 @@ git branch
 
 Comando para deletar um branch
 git branch -D nome_do_branch
+
+Comando para criar alias (abreviações de comandos)
+git config --global alias.s status -> abreviação para "git status" que agora é "git s"
+
+Comando para criar versionamento com tags, por exemplo pixi.js v4.6.2 e essa tag contém todas as informações da realease
+git tag -a v1.0.0 -m "sua_mensagem"
