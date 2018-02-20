@@ -117,3 +117,34 @@ git tag -d nome_da_tag
 e para retirar do repositorio remoto
 git push origin :nome_da_tag
 a mesma coisa server para o branch
+
+//-------------------------------------------------------------
+Command line instructions
+
+Git global setup
+git config --global user.name "Guilherme Santos"
+git config --global user.email "g.santos.sfc@gmail.com"
+
+Create a new repository
+git clone url_do_projeto
+cd nome_do_projeto
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+cd existing_folder
+git init
+git remote add origin url_do_projeto
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin url_do_projeto
+git push -u origin --all
+git push -u origin --tags
+//-------------------------------------------------------------
