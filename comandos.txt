@@ -148,3 +148,12 @@ git remote add origin url_do_projeto
 git push -u origin --all
 git push -u origin --tags
 //-------------------------------------------------------------
+Quando o projeto estiver na sua maquina sem Git e vc vai sincronizar com o remote
+
+echo "# nome_do_projeto" >> README.md
+git init
+git add .
+git commit -m "commit inicial"
+git remote add origin https://github.com/guilhermesantos1/nome_do_projeto.git
+git push -u origin master
+//-------------------------------------------------------------
