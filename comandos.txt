@@ -150,7 +150,7 @@ git push -u origin --tags
 //-------------------------------------------------------------
 Quando o projeto estiver na sua maquina sem Git e vc vai sincronizar com o remote
 
-echo "# nome_do_projeto" >> README.md
+echo # nome_do_projeto >> README.md
 git init
 git add .
 git commit -m "commit inicial"
