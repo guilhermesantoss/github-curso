@@ -5,6 +5,19 @@ git config --global user.email "meuemail@teste.com"
 Configurando editor principal / OPCOES(vim, atom)
 git config --global core.editor vim
 
+Para verificar qual o remote q esta conectado com o seu projeto
+git remote -v
+
+Comandos do editor vim
+*para editar algum arquivo de qualquer extensao
+vim nome_do_arquivo.extensao
+
+a -> para entrar no modo de edicao e ver o conteudo do arquivo
+Ctrl+c -> para sair do modo de edicao
+:q -> para forcar a saida do editor
+:q! -> para sair sem salvar
+:wq -> para sair e salvar
+
 Imprimir valor do username, email, editor principal
 git config user.name
 git config user.email
