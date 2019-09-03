@@ -109,6 +109,9 @@ git clone link_do_projeto nome_da_pasta_de_projeto
 Comando para voltar as alteracoes feitas em um arquivo, exemplo README.md
 git checkout README.md
 
+Comando para criar uma branch e ao mesmo tempo entrar nessa branch
+git checkout -b nome_da_branch
+
 Comando para tirar o arquivo do Staged, ou seja pronto para comitar
 git reset HEAD nome_do_arquivo
 
