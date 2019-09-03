@@ -5,6 +5,9 @@ git config --global user.email "meuemail@teste.com"
 Configurando editor principal / OPCOES(vim, atom)
 git config --global core.editor vim
 
+Quando fizer um push para seu repositorio remoto e colocar o login e a senha, comando para nao precisar mais colocar login e senha toda hora
+git config credential.helper store
+
 Para verificar qual o remote q esta conectado com o seu projeto
 git remote -v
 
@@ -91,6 +94,14 @@ git push origin nome_do_branch
 
 Comando para atualizar o repositorio local com os arquivos do remote
 git pull
+
+Para mergear alteracoes por exemplo, da branch guitoow para master
+git branch master;
+
+--> estando na branch master
+git merge guitoow
+
+--> agora vc tem todas as novas funcionalidades da branch guitoow na branch master
 
 Comando para clonar um projeto
 git clone link_do_projeto nome_da_pasta_de_projeto
