@@ -2,21 +2,21 @@ Configurando username e email
 git config --global user.name "Meu nome"
 git config --global user.email "meuemail@teste.com"
 
-Configurando editor principal / OPCOES(vim, atom)
+Configurando editor principal / OPCOES(vim, atom, code)
 git config --global core.editor vim
 
-Quando fizer um push para seu repositorio remoto e colocar o login e a senha, comando para nao precisar mais colocar login e senha toda hora
-git config credential.helper store
+Gravar login e senha para nao precisar digitar toda vez que fizer um git push
+git config credential.helper store / git config --global credential.helper store
 
-Para verificar qual o remote q esta conectado com o seu projeto
+Para verificar qual a URL remota que esta conectado com o seu projeto
 git remote -v
 
-Comandos do editor vim
+// --- Comandos do editor vim --- //
 *para editar algum arquivo de qualquer extensao
 vim nome_do_arquivo.extensao
 
 a -> para entrar no modo de edicao e ver o conteudo do arquivo
-Ctrl+c -> para sair do modo de edicao
+Ctrl+C / ESC -> para sair do modo de edicao
 :q -> para forcar a saida do editor
 :q! -> para sair sem salvar
 :wq -> para sair e salvar
@@ -44,14 +44,21 @@ cd ..
 Para iniciar um repositorio git local
 git init
 
+// --- Comandos Linux --- //
 Para ver a estrutura de pastas
-ls -la
+ls -l / ll 
+
+Para ver estrutura de pastas e arquivos ocultos
+ls -la / ll -a
 
 Ver log de todos os commits do projeto
 git log
 
-Para cancelar o comando git log
-comando :q, utilizar o comando :z para dar a rolagem mais rapida dos logs
+Cancelar o comando git log
+tecla Q, utilizar a tecla Z para dar a rolagem mais rapida dos logs
+
+Ver os logs mostrando os arquivos que foram alterados
+git log --name-only
 
 Ver logs com informacoes de branch
 git log --decorate
