@@ -30,7 +30,7 @@ Imprimir todas as config do git
 git config --list
 
 Criar diretorio no terminal
-mkdir
+mkdir nome_do_diretorio
 
 Comando para criar um arquivo
 echo conteudo_de_dentro_do_arquivo >> nome_do_arquivo.extensao
@@ -128,13 +128,10 @@ git reset --soft hash_log
 ::--mixed:: mata o commit e deixa o arquivo unstaged
 ::--hard:: mata o commit e desfaz todas as alteracoes ja feitas
 
-Comando para criar um branch
-git checkout -b nome_do_branch
-
 Comando para listar todos os branchs existentes no projeto e ele indica em qual branch você está atualmente
 git branch
 
-Comando para deletar um branch
+Comando para deletar um branch ("-D" é uma alias para "--delete --force")
 git branch -D nome_do_branch
 
 Comando para criar alias (abreviações de comandos)
