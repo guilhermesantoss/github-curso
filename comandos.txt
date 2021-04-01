@@ -75,6 +75,9 @@ git shortlog -sn
 Ver grafico dos branchs do projeto
 git log --graph
 
+Buscar um commit utilizando uma string como filtro
+git log --grep="fix"
+
 Ver alteracoes de um commit especifico utilizando a hash do log
 git show hash
 
